@@ -4,15 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
     <form>
-        <label for="usuário">Nome de usuário</label>
-        <input type="text" name="usuario" id="usuario" required>
-        <label for="senha">senha</label>
-        <input for="senha" name="senha" id="senha" required>
-        <button type="submit">Enviar</button>
-
+        <div class="box-login">
+            <div class="caixatexto">
+                <label for="usuário">Nome de usuário</label>
+                <input type="text" name="usuario" id="usuario" placeholder="Usuário" required>
+            </div>
+            
+            <div class="caixatexto">
+                <label for="senha">senha</label>
+                <input  type="password" name="senha" id="senha" placeholder="Senha" required>
+            </div>
+        
+       
+            <button class ="btn-login" type="submit">Login</button>
+        
+        </div>
     </form>
 </body>
 </html>
