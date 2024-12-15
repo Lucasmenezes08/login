@@ -5,7 +5,7 @@ body{
 form {
     width: 100vw;
     height: 100vh;
-    background-color:rgb(200, 219, 237);
+    background-color:rgb(34, 32, 67);
     display:flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@ form {
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background: rgb(62, 197, 241);
+    background: rgb(65, 24, 161);
     border-radius: 25px;
     box-shadow: 0px 10px 40px rgb(35, 33, 33) ;
 
@@ -43,11 +43,24 @@ form {
     border: none;
     border-radius: 10px;
     padding: 15px;
-    background: rgb(161, 211, 233); 
-    color:black;
+    background: rgb(78, 66, 141); 
+    color:white;
     font-size: 12pt;
-    box-shadow: 0px 10px 40px rgb(35, 33, 33) ;
+    box-shadow: 0px 10px 20px rgb(35, 33, 33) ;
     outline: none;
+    box-sizing: border-box;
 
 }
+
+.caixatexto > label{
+    color: white;
+    margin-bottom: 10px;
+
+}
+
+.caixatexto > input::placeholder{
+    color:rgb(163, 170, 176)
+}
+
+
 
