@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 body{
     margin: 0;
+    font-family: 'Noto sans' , sans-serif;
+
 }
 
 form {
@@ -14,7 +18,7 @@ form {
 
 .box-login {
     width: 25%;
-    height: 50%;
+    height: 55%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,11 +31,13 @@ form {
 }
 
 .box-login > h1 {
-    margin: 0;
+    margin: 10px;
     font-weight: 800;
+    color:rgb(0, 196, 150)
 }
 
 .caixatexto {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -46,7 +52,7 @@ form {
     background: rgb(78, 66, 141); 
     color:white;
     font-size: 12pt;
-    box-shadow: 0px 10px 20px rgb(35, 33, 33) ;
+    box-shadow: 0px 10px 20px rgb(46, 44, 44) ;
     outline: none;
     box-sizing: border-box;
 
@@ -55,6 +61,7 @@ form {
 .caixatexto > label{
     color: white;
     margin-bottom: 10px;
+    margin-top: 10px;
 
 }
 
@@ -62,5 +69,21 @@ form {
     color:rgb(163, 170, 176)
 }
 
+.btn-login {
+    width: 100%;
+    padding: 16px 0;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 4px;
+    color:rgb(38, 7, 68);
+    background: rgb(0, 196, 150);
+    cursor: pointer;
+    box-shadow: 0 10px 40px -12px rgb(27, 27, 27);
+
+}
 
 
