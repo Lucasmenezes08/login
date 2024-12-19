@@ -32,7 +32,7 @@ form {
 
 .box-login > h1 {
     margin: 10px;
-    font-weight: 800;
+    font-weight: 400;
     color:rgb(246, 246, 246)
 }
 
@@ -86,7 +86,7 @@ form {
     border-radius: 8px;
     outline: none;
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 400;
     letter-spacing: 4px;
     color:rgb(0, 0, 0);
     background: rgb(246, 246, 246);
